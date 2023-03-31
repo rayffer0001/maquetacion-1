@@ -1,17 +1,53 @@
+/* Estilos para realizar reset */
+ul {
+    list-style: none;
+}
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'roboto', sans-serif;
-    
-
+    font-weight: 500;
+}
+/* Estilos para el bloque del header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59626b;
+    color: #f4f5f7;
+    padding: 10px;
 }
 
-ul {
-    list-style: none;
-    font-weight: 300;
+/* aplicar stylos con clase */
+.logo {
+    width: 50px
 }
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* header > img {
+    width: 200px
+} */
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+}
+
+.menu-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+/* FIN Estilos para el bloque del header */
 
 footer p {
-    font-weight: 700;
-
+    font-weight: 300;
 }
